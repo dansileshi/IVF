@@ -5,7 +5,7 @@ The integrated visual field (IVF) estimates the binocular visual field from the 
 
 This is an example 10-2 IVF:
 Note that the MD values are not accurate, the code provide a graphical depiction how IVF is generated.
-![alt text](https://github.com/dansileshi/IVF/blob/master/IVF_10-2/P1.jpg "Logo Title Text 1")
+![alt text](https://github.com/dansileshi/IVF/blob/master/IVF_10-2/P23.jpg "Logo Title Text 1")
 
 
 
