@@ -68,7 +68,7 @@ text(250,920,['MD: ',num2str(md_ivf)],'FontSize',18)
 % save the fig
 %print((filename),'-dpdf','-r300');
 %orient(figure(1),'landscape')
-print(fullfile(filename),'-djpeg','-r300');
+print(fullfile(filename),'-djpeg','-r100');
 
 
 end
