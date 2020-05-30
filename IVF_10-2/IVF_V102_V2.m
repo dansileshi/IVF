@@ -71,15 +71,15 @@ mdl = MDL;
 mdr = MDR;
 figure(1)
 subplot(1,3,1)
-text(250,920,['MD: ',num2str(mdl)],'FontSize',18);
+%text(250,920,['MD: ',num2str(mdl)],'FontSize',18);
 text(320,-40,['Left '],'FontSize',26);
 
 subplot(1,3,3)
-text(250,920,['MD: ',num2str(mdr)],'FontSize',18);
+%text(250,920,['MD: ',num2str(mdr)],'FontSize',18);
 text(320,-40,['Right '],'FontSize',26);
 
 subplot(1,3,2)
-text(250,920,['MD: ',num2str(md_ivf)],'FontSize',18);
+%text(250,920,['MD: ',num2str(md_ivf)],'FontSize',18);
 text(320,-40,['IVF '],'FontSize',26);
 
 
