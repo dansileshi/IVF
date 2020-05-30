@@ -47,7 +47,7 @@ function plot_30d2_IVF(data_L,data_R,MDL,MDR,age,filename)
 % prepate index mat
 Indx_Mat = Create_idxMat();
 % index rows
-size(data_L)
+size(data_L);
 Interpol_Mat1 = Prepare_mat(Indx_Mat,data_L);
 Interpol_Mat2 = Prepare_mat(Indx_Mat,data_R);
 IVF = max(Interpol_Mat1,Interpol_Mat2);
@@ -71,13 +71,17 @@ mdl = MDL;
 mdr = MDR;
 figure(1)
 subplot(1,3,1)
-text(250,920,['MD: ',num2str(mdl)],'FontSize',18)
+text(250,920,['MD: ',num2str(mdl)],'FontSize',18);
+text(320,-40,['Left '],'FontSize',26);
 
 subplot(1,3,3)
-text(250,920,['MD: ',num2str(mdr)],'FontSize',18)
+text(250,920,['MD: ',num2str(mdr)],'FontSize',18);
+text(320,-40,['Right '],'FontSize',26);
 
 subplot(1,3,2)
-text(250,920,['MD: ',num2str(md_ivf)],'FontSize',18)
+text(250,920,['MD: ',num2str(md_ivf)],'FontSize',18);
+text(320,-40,['IVF '],'FontSize',26);
+
 
 
 % save the fig
@@ -112,8 +116,7 @@ subplot(1,3,pos); hold on;
 for ii=1:10
     Interpol_Mat(ii,:) = fillmissing(Interpol_Mat(ii,:),'nearest');
 end
-Interpol_Mat
-%Interpol_Mat = interp2(Interpol_Mat,'linear')
+Interpol_Mat;
 
 
 % interpolate for every quadrant to crate the 28 X 28 matrix
