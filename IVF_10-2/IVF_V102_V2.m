@@ -1,3 +1,18 @@
+
+% Plot 10-2 visual field greyscales (HFA style)
+    %
+    % VfPlot Methods:
+	%   * run          - plots five greyscale using the data in the csv file
+	
+    
+    % @todo extend this to 24-2 
+    %
+    % Copyright 2020 : D S Asfaw <daniel.s.asfaw@gmail.com>
+    % *********************************************************************
+    % 
+
+	  
+	  
 close all
 clear
 clc
